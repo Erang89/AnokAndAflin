@@ -4,13 +4,13 @@
   z-index: 1;
 }
 .image-box{
-  padding: 20px;
-  border-radius: 140px;
+  padding: 15px;
+  border-radius: 150px;
   box-shadow:  0px 0px 6.1px 3.9px rgb(28 31 86 / 6%);
   background: #e5e3e2;
 }
 .cover .image-box img{
-  border-radius: 140px;
+  border-radius: 150px;
 }
 
 
@@ -47,4 +47,22 @@
   position: relative;
   margin-top: -80px;
   z-index: 100;
+}
+
+@media (max-width: 767px)
+{
+
+  .couple-section .middle-couple-pic .middle-couple-pic-inner img
+  {
+    -webkit-animation: none !important;
+  animation: none;
+}
+}
+
+
+@media (min-width: 960px){
+  .static-hero {
+      height: 965px !important;
+      margin-top: -75px;
+  }
 }
